@@ -1,3 +1,17 @@
-// const simpleIcons = require("simple-icons");
+const contactButton = document.querySelector(".contact__button");
+const contactForm = document.querySelector("contact__form");
 
-// console.log(simpleIcons.get("Simple Icons"));
+contactButton.addEventListener("click", formAppear());
+
+function formAppear() {
+  console.log("hello");
+  contactForm.style.display = "flex";
+  contactButton.style.display = "none";
+}
+
+function formDisappear() {
+  contactForm.style.display = "none";
+  contactButton.style.display = "flex";
+}
+
+formDisappear();
