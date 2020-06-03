@@ -1,3 +1,43 @@
+/* Global Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+    --bg-colour;
+}
+
+section {
+    min-height: 95vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+
+
+
+.name {
+    margin-top: 5rem;
+}
+
+.header__link {
+    margin: 0 2rem;
+}
+
+.split {
+    height: 0.5rem;
+    background-color:black;
+    width: 98vw;
+}
+
+
 /*Footer */
 .footer {
   padding: 1rem;
