@@ -1,0 +1,14 @@
+/*Footer */
+.footer {
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  position: fixed;
+}
+
+.footer__link svg {
+  height: 2rem;
+  margin: 0 2rem;
+}
