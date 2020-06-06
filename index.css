@@ -3,12 +3,18 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px solid black;
-  font-family: "Playfair Display", serif;
+  /* border: 1px solid black; */
+  font-family: "Roboto", sans-serif;
+  background-color: var(--bg-colour);
+  color: var(--font-colour);
 }
 
 :root {
-  /* --bg-colour; */
+  --bg-colour: #f7f4f0;
+  --font-colour: #27187e;
+  --light-accent-colour: #c7d3dd;
+  --bold-accent-colour: #faa916;
+  --link-colour: #c7d3dd;
 }
 
 section {
@@ -21,21 +27,24 @@ section {
   align-items: center;
 }
 
-/* Header */
-.header {
+.header,
+.projects-title,
+.contact-title {
   margin-top: 5rem;
 }
 
+/* Header */
 .name {
   font-size: 3rem;
   font-weight: 100;
+  font-family: "Playfair Display", serif;
 }
 
 .topnav {
   width: 95vw;
   display: flex;
   justify-content: space-around;
-  border-bottom: 0.25rem black solid;
+  border-bottom: 0.25rem var(--font-colour) solid;
   margin-top: 1.5rem;
 }
 
@@ -73,10 +82,13 @@ section {
 
 .tech-stack__list-item {
   margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .tech-stack__list-item svg {
-  fill: var(--accent-color-dark);
+  fill: var(--bold-accent-colour);
   height: 3rem;
 }
 
@@ -92,17 +104,22 @@ section {
 }
 
 .project {
-  margin: 0.25rem;
-  padding: 0.25rem;
-  max-width: 300px;
-  min-width: 40%;
+  margin: 1rem;
+  padding: 0.5rem;
+  max-width: 400px;
+  width: 40vw;
   display: flex;
   flex-direction: column;
+  border: 1px solid var(--light-accent-colour);
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .project-img__image {
   width: 100%;
+  /* max-width: 225px; */
   height: auto;
+  border-radius: 5px;
 }
 
 .project-name {
@@ -114,7 +131,23 @@ section {
 .project-stack {
   font-size: 0.75rem;
 }
+
+.project-stack a {
+  font-weight: 600;
+  text-decoration: none;
+  /* font-style: bold; */
+}
+
 .project-information {
+}
+
+/* Contact info */
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10vh;
 }
 
 /*Footer */
@@ -125,9 +158,11 @@ section {
   justify-content: center;
   bottom: 0;
   position: fixed;
+  border-top: 0.05rem var(--font-colour) solid;
 }
 
 .footer__link svg {
   height: 2rem;
   margin: 0 2rem;
+  fill: var(--bold-accent-colour);
 }
