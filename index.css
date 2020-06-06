@@ -43,6 +43,7 @@ section {
 .topnav {
   width: 95vw;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   border-bottom: 0.25rem var(--font-colour) solid;
   margin-top: 1.5rem;
@@ -152,6 +153,10 @@ section {
   margin-bottom: 10vh;
 }
 
+.contact-cv {
+  margin-top: 1rem;
+}
+
 /*Footer */
 .footer {
   padding: 1rem;
@@ -170,15 +175,12 @@ section {
 }
 
 @media only screen and (min-width: 600px) {
+  .topnav {
+    flex-direction: row;
+  }
+
   .project {
-    /* margin: 1rem;
-    padding: 0.5rem; */
     max-width: 400px;
     width: 40%;
-    /* display: flex;
-    flex-direction: column;
-    border: 1px solid var(--light-accent-colour);
-    border-radius: 5px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
   }
 }
