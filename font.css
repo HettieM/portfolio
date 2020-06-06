@@ -1,0 +1,29 @@
+.LostaMasta-Ornaments {
+  font-family: LostaMasta-Ornaments;
+  position: absolute;
+}
+
+.ornaments-l {
+}
+
+/* @media only screen and (min-width: 600px) {
+  .ornaments-l {
+    top: 5rem;
+    left: 5rem;
+  }
+} */
+
+/* @media only screen and (min-width: 600px) {
+    .ornaments-l {
+      top: 5rem;
+      left: 5rem;
+    }
+  } */
+
+@media (max-width: 600px) and (min-width: 550px) {
+  .ornaments-l {
+    /* top: -3rem;
+    left: -5rem;
+    right: -2rem; */
+  }
+}

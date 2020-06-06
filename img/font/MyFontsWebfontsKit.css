@@ -1,0 +1,77 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3911091, 2020-06-06T17:31:46-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: LostaMasta-Thin by Creativemedialab
+ * URL: https://www.myfonts.com/fonts/creativemedialab/losta-masta/thin/
+ * 
+ * Webfont: LostaMasta-Light by Creativemedialab
+ * URL: https://www.myfonts.com/fonts/creativemedialab/losta-masta/light/
+ * 
+ * Webfont: LostaMasta-Regular by Creativemedialab
+ * URL: https://www.myfonts.com/fonts/creativemedialab/losta-masta/regular/
+ * 
+ * Webfont: LostaMasta-Medium by Creativemedialab
+ * URL: https://www.myfonts.com/fonts/creativemedialab/losta-masta/medium/
+ * 
+ * Webfont: LostaMasta-Bold by Creativemedialab
+ * URL: https://www.myfonts.com/fonts/creativemedialab/losta-masta/bold/
+ * 
+ * Webfont: LostaMasta-ExtraBold by Creativemedialab
+ * URL: https://www.myfonts.com/fonts/creativemedialab/losta-masta/extra-bold/
+ * 
+ * Webfont: LostaMasta-Black by Creativemedialab
+ * URL: https://www.myfonts.com/fonts/creativemedialab/losta-masta/black/
+ * 
+ * Webfont: LostaMasta-Ornaments by Creativemedialab
+ * URL: https://www.myfonts.com/fonts/creativemedialab/losta-masta/ornaments/
+ * 
+ * 
+ * Webfonts copyright: Copyright © 2020 by Kadek Mahardika. All rights reserved.
+ * 
+ * © 2020 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3badb3");
+  
+@font-face {
+  font-family: 'LostaMasta-Medium';
+  src: url('webFonts/LostaMasta-Medium/font.woff2') format('woff2'), url('webFonts/LostaMasta-Medium/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'LostaMasta-Light';
+  src: url('webFonts/LostaMasta-Light/font.woff2') format('woff2'), url('webFonts/LostaMasta-Light/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'LostaMasta-Regular';
+  src: url('webFonts/LostaMasta-Regular/font.woff2') format('woff2'), url('webFonts/LostaMasta-Regular/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'LostaMasta-Thin';
+  src: url('webFonts/LostaMasta-Thin/font.woff2') format('woff2'), url('webFonts/LostaMasta-Thin/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'LostaMasta-Bold';
+  src: url('webFonts/LostaMasta-Bold/font.woff2') format('woff2'), url('webFonts/LostaMasta-Bold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'LostaMasta-Ornaments';
+  src: url('webFonts/LostaMasta-Ornaments/font.woff2') format('woff2'), url('webFonts/LostaMasta-Ornaments/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'LostaMasta-Black';
+  src: url('webFonts/LostaMasta-Black/font.woff2') format('woff2'), url('webFonts/LostaMasta-Black/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'LostaMasta-ExtraBold';
+  src: url('webFonts/LostaMasta-ExtraBold/font.woff2') format('woff2'), url('webFonts/LostaMasta-ExtraBold/font.woff') format('woff');
+}
+
