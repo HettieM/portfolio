@@ -38,11 +38,13 @@ section {
   font-size: 3rem;
   font-weight: 100;
   font-family: "Playfair Display", serif;
+  margin-left: 1rem;
 }
 
 .topnav {
   width: 95vw;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   border-bottom: 0.25rem var(--font-colour) solid;
   margin-top: 1.5rem;
@@ -106,8 +108,8 @@ section {
 .project {
   margin: 1rem;
   padding: 0.5rem;
-  max-width: 400px;
-  width: 40vw;
+  /* max-width: 400px; */
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   border: 1px solid var(--light-accent-colour);
@@ -124,25 +126,23 @@ section {
 
 .project-name {
   text-decoration: none;
-  margin: 1rem 0;
 }
 
 .project-role {
-  margin-bottom: 0.5rem;
+  margin: 0.5rem 0;
 }
 .project-stack {
   font-size: 0.75rem;
-  margin-top: auto;
 }
 
 .project-stack a {
   font-weight: 600;
   text-decoration: none;
+  margin: 0.5rem 0;
 }
 
 .project-information {
   text-align: justify;
-  margin-bottom: 0.5rem;
 }
 
 /* Contact info */
@@ -173,4 +173,15 @@ section {
   height: 2rem;
   margin: 0 2rem;
   fill: var(--bold-accent-colour);
+}
+
+@media only screen and (min-width: 600px) {
+  .topnav {
+    flex-direction: row;
+  }
+
+  .project {
+    max-width: 400px;
+    width: 40%;
+  }
 }
