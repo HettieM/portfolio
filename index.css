@@ -3,7 +3,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* border: 1px solid black; */
   font-family: "Roboto", sans-serif;
   color: var(--font-colour);
 }
@@ -43,11 +42,9 @@ section {
 .name {
   font-size: 3rem;
   font-weight: 100;
-  /* font-family: "Playfair Display", serif; */
   font-family: LostaMasta-Medium, serif;
-  margin-top: 25vh;
+  margin-top: 22.5vh;
   text-align: center;
-  /* margin-left: 2rem; */
 }
 
 .topnav {
@@ -126,7 +123,6 @@ section {
 .project {
   margin: 1rem;
   padding: 0.5rem;
-  /* max-width: 400px; */
   max-width: 100%;
   display: flex;
   flex-direction: column;
@@ -137,7 +133,6 @@ section {
 
 .project-img__image {
   width: 100%;
-  /* max-width: 225px; */
   height: auto;
   border-radius: 5px;
 }
@@ -176,7 +171,6 @@ section {
 }
 
 .contact-links {
-  /* border: 1px solid black; */
   margin-top: 2rem;
 }
 
