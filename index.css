@@ -124,21 +124,25 @@ section {
 
 .project-name {
   text-decoration: none;
+  margin: 1rem 0;
 }
 
 .project-role {
+  margin-bottom: 0.5rem;
 }
 .project-stack {
   font-size: 0.75rem;
+  margin-top: auto;
 }
 
 .project-stack a {
   font-weight: 600;
   text-decoration: none;
-  /* font-style: bold; */
 }
 
 .project-information {
+  text-align: justify;
+  margin-bottom: 0.5rem;
 }
 
 /* Contact info */
