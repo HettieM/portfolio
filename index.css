@@ -5,7 +5,6 @@
   padding: 0;
   /* border: 1px solid black; */
   font-family: "Roboto", sans-serif;
-  background-color: var(--bg-colour);
   color: var(--font-colour);
 }
 
@@ -25,20 +24,30 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: var(--bg-colour);
 }
 
-.header,
+.about-me__text,
 .projects-title,
 .contact-title {
   margin-top: 5rem;
 }
 
 /* Header */
+.header {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .name {
   font-size: 3rem;
   font-weight: 100;
-  font-family: "Playfair Display", serif;
-  margin-left: 1rem;
+  /* font-family: "Playfair Display", serif; */
+  font-family: LostaMasta-Medium;
+  margin-top: 25vh;
+  text-align: center;
+  /* margin-left: 2rem; */
 }
 
 .topnav {
@@ -64,10 +73,14 @@ section {
 }
 
 .about-me__text {
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
   width: 75vw;
   max-width: 700px;
   text-align: justify;
+}
+
+.about-me__avatar {
+  max-width: 95%;
 }
 
 /* Tech Stack  */
@@ -101,6 +114,7 @@ section {
 /* Projects */
 .projects-title {
   margin-left: 0.5rem;
+  text-align: center;
 }
 
 .projects {
@@ -135,6 +149,7 @@ section {
 .project-role {
   margin: 0.5rem 0;
 }
+
 .project-stack {
   font-size: 0.75rem;
   margin-top: auto;
@@ -148,6 +163,7 @@ section {
 
 .project-information {
   text-align: justify;
+  margin-bottom: 0.5rem;
 }
 
 /* Contact info */
@@ -172,11 +188,12 @@ section {
 
 .contact-text {
   margin-top: 1rem;
+  text-align: center;
 }
 
 .contact-link svg {
   height: 2rem;
-  margin: 0 2rem;
+  margin: 0 1rem;
   fill: var(--bold-accent-colour);
 }
 
@@ -189,9 +206,14 @@ section {
   bottom: 0;
   position: fixed;
   border-top: 0.05rem var(--font-colour) solid;
+  background-color: var(--bg-colour);
 }
 
 @media only screen and (min-width: 600px) {
+  .name {
+    font-size: 6rem;
+  }
+
   .topnav {
     flex-direction: row;
   }
