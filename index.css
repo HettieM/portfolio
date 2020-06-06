@@ -106,8 +106,8 @@ section {
 .project {
   margin: 1rem;
   padding: 0.5rem;
-  max-width: 400px;
-  width: 40vw;
+  /* max-width: 400px; */
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   border: 1px solid var(--light-accent-colour);
@@ -124,25 +124,23 @@ section {
 
 .project-name {
   text-decoration: none;
-  margin: 1rem 0;
 }
 
 .project-role {
-  margin-bottom: 0.5rem;
+  margin: 0.5rem 0;
 }
 .project-stack {
   font-size: 0.75rem;
-  margin-top: auto;
 }
 
 .project-stack a {
   font-weight: 600;
   text-decoration: none;
+  margin: 0.5rem 0;
 }
 
 .project-information {
   text-align: justify;
-  margin-bottom: 0.5rem;
 }
 
 /* Contact info */
@@ -152,10 +150,6 @@ section {
   align-items: center;
   justify-content: center;
   margin-bottom: 10vh;
-}
-
-.contact-cv {
-  margin-top: 1rem;
 }
 
 /*Footer */
@@ -173,4 +167,18 @@ section {
   height: 2rem;
   margin: 0 2rem;
   fill: var(--bold-accent-colour);
+}
+
+@media only screen and (min-width: 600px) {
+  .project {
+    /* margin: 1rem;
+    padding: 0.5rem; */
+    max-width: 400px;
+    width: 40%;
+    /* display: flex;
+    flex-direction: column;
+    border: 1px solid var(--light-accent-colour);
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  }
 }
